@@ -1,0 +1,109 @@
+/* Blog CSS */
+
+/* SETTING DEFAULT PROPERTIES OF ALL BROWSERS */
+* {
+	margin: 0;
+	padding: 0;
+}
+body{
+    background-image:  url('/images/weather.png');
+    background-repeat: repeat;
+}
+/*crousel*/
+
+.crousel{
+    margin: auto;
+    width: 400px;
+}
+.crousel div{
+    width: 350px;
+    margin:auto;
+}
+.crousel div img{
+    display: block;
+    margin: auto;
+}
+
+
+/* MAIN CONTENT */
+
+#featured{
+    width: 1000px;
+    height: 700px;
+    margin:auto;
+}
+.featured_blog{
+    width: 400px;
+    height: 300px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border: dashed 3px green;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px black;
+}
+.featured_blog p{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: dimgrey;
+    margin-top: 15px;
+    text-align: center;
+}
+@keyframes box{
+    from { position: relative }
+    to { position: relative;top: -7px; border: solid 3px green;
+        box-shadow:10px 10px 3px black } 
+}
+.featured_blog:hover{
+    animation-name: box;
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+    animation-direction: alternate;
+    /*transition: all 0.5s;
+    -webkit-transition:all 0.5s;*/
+}
+.read_more{
+    opacity: 0.8;
+    position:relative;
+    background-color:#4d90fe;
+    text-decoration: none;
+    padding:5px;
+    color:white;
+    font-family: open-sans,sans-serif;
+    font-size: 20px;
+    display: none; 
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    width: 100px;
+   
+}
+#blog1{
+    float:left;
+}
+#blog2{
+    float:right;
+}
+#blog3{
+    float:left;
+}
+#blog4{
+    float:right;
+}
+.clear{
+    clear:both;
+}
+.title{
+    text-align: center;
+    margin: 5px 10px 5px;
+    border-bottom: #f1f1f1;
+}
+.intro{
+    font-size: 15px;
+    font-family: cursive,sans-serif;
+}
+
+
+
+
