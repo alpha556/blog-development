@@ -1,6 +1,6 @@
 # blog-development
 This project is about creating an attractive blog.
-current version: 0.1.0 alpha
+current version: beta
 
 Screenshots:
 
